@@ -17,7 +17,7 @@ function Dashboard() {
 
         
 
-        const res = await axios.get(`${API_URL}:5000/dashboard`, {
+        const res = await axios.get(`${API_URL}/dashboard`, {
           headers: {
             Authorization: `Bearer ${token}`,
           },
