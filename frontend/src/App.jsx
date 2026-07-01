@@ -4,7 +4,7 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Dashboard from "./pages/Dashboard";
 import UploadResume from "./pages/UploadResume";
-import Navbar from "./components/Navbar";
+
 import Analysis from "./pages/Analysis";
 import History from "./pages/History";
 import ProtectedRoute from "./components/ProtectedRoute";
@@ -13,7 +13,7 @@ import Profile from "./pages/Profile";
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
+      
       <Routes>
         <Route path="/" element={<Navigate to="/dashboard" replace />} />
 
