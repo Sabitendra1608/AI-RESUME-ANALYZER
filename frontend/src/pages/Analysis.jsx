@@ -3,6 +3,7 @@ import axios from "axios";
 import { useLocation, useNavigate, useParams } from "react-router-dom";
 import MainLayout from "../components/layout/MainLayout";
 import { generatePDF } from "../utils/generatePDF";
+import { API_URL } from "../config/api";
 
 const defaultData = {
   atsScore: 0,

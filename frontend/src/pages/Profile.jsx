@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import MainLayout from "../components/layout/MainLayout";
+import { API_URL } from "../config/api";
 
 function Profile() {
   const [user, setUser] = useState(null);

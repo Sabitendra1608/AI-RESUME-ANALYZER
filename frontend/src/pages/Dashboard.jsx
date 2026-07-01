@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import MainLayout from "../components/layout/MainLayout";
+import { API_URL } from "../config/api";
 
 function Dashboard() {
   const navigate = useNavigate();

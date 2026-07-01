@@ -3,6 +3,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 import MainLayout from "../components/layout/MainLayout";
+import { API_URL } from "../config/api";
 
 function UploadResume() {
   const [file, setFile] = useState(null);

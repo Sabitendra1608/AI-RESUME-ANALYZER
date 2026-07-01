@@ -3,6 +3,7 @@ import axios from "axios";
 import MainLayout from "../components/layout/MainLayout";
 import { Search, Trash2, Eye, FileText } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import { API_URL } from "../config/api";
 
 function History() {
   const [analyses, setAnalyses] = useState([]);
