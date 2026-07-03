@@ -20,10 +20,10 @@ function Sidebar() {
     <aside className="w-72 min-h-screen bg-slate-950 border-r border-slate-800 p-6 text-white">
       <div className="mb-10">
         <h1 className="text-2xl font-bold text-blue-400">
-          AI Resume
+          AI Resume Analyzer
         </h1>
         <p className="text-sm text-slate-400 mt-1">
-          Analyzer Dashboard
+           Dashboard
         </p>
       </div>
 
