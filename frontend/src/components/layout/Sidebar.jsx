@@ -22,9 +22,6 @@ function Sidebar() {
         <h1 className="text-2xl font-bold text-blue-400">
           AI Resume Analyzer
         </h1>
-        <p className="text-sm text-slate-400 mt-1">
-           Dashboard
-        </p>
       </div>
 
       <nav className="space-y-3">
